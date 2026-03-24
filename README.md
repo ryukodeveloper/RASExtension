@@ -1,21 +1,21 @@
-## 🚀 Ryuko Auto Share (v1.0)
+## Ryuko Auto Share (v1.0)
 
 **Ryuko Auto Share** is a high-performance, background-capable browser extension designed to automate link sharing on Facebook. Built with **Manifest V3**, it is fully optimized for both **Desktop** and **Mobile** browsers (like Kiwi, Mises, and Orion).
 
 ---
 
-### ✨ Key Features
+### Key Features
 
-* **🔄 Background Processing:** Uses the `chrome.alarms` API to ensure sharing continues even if you close the popup or switch apps on your phone.
-* **📱 Mobile Optimized:** Specifically designed to bypass mobile battery restrictions that usually kill background scripts.
-* **🔔 System Notifications:** Get real-time OS-level alerts when a task finishes or if an error occurs.
-* **🎨 Dynamic UI:** The interface adapts! The "Start" button transforms into a "Stop" button with real-time status syncing.
-* **📜 Persistent Logs:** Terminal logs are saved to local storage. You can close and reopen the extension anytime to check progress.
-* **🍪 Auto-Session Detection:** Automatically identifies your active Facebook session—no manual token pasting required.
+* **Background Processing:** Uses the `chrome.alarms` API to ensure sharing continues even if you close the popup or switch apps on your phone.
+* **Mobile Optimized:** Specifically designed to bypass mobile battery restrictions that usually kill background scripts.
+* **System Notifications:** Get real-time OS-level alerts when a task finishes or if an error occurs.
+* **Dynamic UI:** The interface adapts! The "Start" button transforms into a "Stop" button with real-time status syncing.
+* **Persistent Logs:** Terminal logs are saved to local storage. You can close and reopen the extension anytime to check progress.
+* **Auto-Session Detection:** Automatically identifies your active Facebook session—no manual token pasting required.
 
 ---
 
-### 🛠️ How It Works
+### How It Works
 
 The extension operates through a three-layer architecture to ensure it never stops mid-task:
 
@@ -35,7 +35,7 @@ For every "tick" of the alarm, the extension sends a `POST` request to the **Fac
 
 ---
 
-### 📲 How to Install
+### How to Install
 
 #### On Desktop (Chrome/Edge/Brave)
 1.  Download the ryukoautoshare.zip file located in [releases](https://github.com/ryukodeveloper/Ryuko-Auto-Share-Extension/releases/tag/RyukoAutoShare), and unzip it with a new folder.
@@ -51,7 +51,7 @@ For every "tick" of the alarm, the extension sends a `POST` request to the **Fac
 
 ---
 
-### ⚠️ Disclaimer
+### Disclaimer
 This tool is for **educational and personal use only**. Please respect Facebook's Terms of Service. Setting intervals too low (e.g., under 1500ms) may result in temporary feature blocks from Facebook.
 
 ---
