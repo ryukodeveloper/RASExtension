@@ -1,4 +1,4 @@
-# 🚀 Ryuko Auto Share (v1.5)
+# 🚀 Ryuko Auto Share (v1.0)
 
 **Ryuko Auto Share** is a high-performance, background-capable browser extension designed to automate link sharing on Facebook. Built with **Manifest V3**, it is fully optimized for both **Desktop** and **Mobile** browsers (like Kiwi, Mises, and Orion).
 
